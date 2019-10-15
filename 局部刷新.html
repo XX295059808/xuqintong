@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>局部刷新</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/局部刷新/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/局部刷新/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2488" class="ax_default _文本段落">
+        <div id="u2488_div" class=""></div>
+        <div id="u2488_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;">部分控件可能需要提供局部刷新功能</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">当加载失败的时候，点击该控件可以再次请求服务端数据。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">比如图片、视频、下载等控件。</span></p><p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;">实现方法：</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">①使用</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">Iframe</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">。每一个框架内都可以载入一个完整的网页，而在框架所在的网页内，则会体现出</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&quot;</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">局部刷新</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&quot;</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">的效果。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">②使用</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">Ajax</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">。异步载入需要的数据后，使用</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">JS</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">对</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">HTML</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">文档的</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">DOM</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">结构进行更改，实现</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&quot;</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">局部刷新</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&quot;</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">的效果。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (页面模板带状态栏) -->
+
+      <!-- 状态栏 (矩形) -->
+      <div id="u2490" class="ax_default _形状" data-label="状态栏">
+        <div id="u2490_div" class=""></div>
+        <div id="u2490_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (页面模板) -->
+
+      <!-- 内容区 (矩形) -->
+      <div id="u2492" class="ax_default _形状1" data-label="内容区">
+        <div id="u2492_div" class=""></div>
+        <div id="u2492_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 导航栏 (矩形) -->
+      <div id="u2493" class="ax_default _形状1" data-label="导航栏">
+        <div id="u2493_div" class=""></div>
+        <div id="u2493_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 左按钮 (矩形) -->
+      <div id="u2494" class="ax_default _形状1" data-label="左按钮">
+        <div id="u2494_div" class=""></div>
+        <div id="u2494_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 右按钮 (矩形) -->
+      <div id="u2495" class="ax_default _形状1" data-label="右按钮">
+        <div id="u2495_div" class=""></div>
+        <div id="u2495_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+      <div id="u2491" style="display:none; visibility:hidden;"></div>
+      <div id="u2489" style="display:none; visibility:hidden;"></div>
+
+      <!-- 图片 (动态面板) -->
+      <div id="u2496" class="ax_default" data-label="图片">
+        <div id="u2496_state0" class="panel_state" data-label="加载失败" style="">
+          <div id="u2496_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (占位符) -->
+            <div id="u2497" class="ax_default placeholder">
+              <img id="u2497_img" class="img " src="images/局部刷新/u2497.svg"/>
+              <div id="u2497_text" class="text ">
+                <p><span>图片加载失败</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u2496_state1" class="panel_state" data-label="加载中" style="visibility: hidden;">
+          <div id="u2496_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (占位符) -->
+            <div id="u2498" class="ax_default placeholder1">
+              <img id="u2498_img" class="img " src="images/局部刷新/u2498.svg"/>
+              <div id="u2498_text" class="text ">
+                <p><span>正在加载…</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u2496_state2" class="panel_state" data-label="加载成功" style="visibility: hidden;">
+          <div id="u2496_state2_content" class="panel_state_content">
+
+            <!-- Unnamed (图片 ) -->
+            <div id="u2499" class="ax_default _图片">
+              <img id="u2499_img" class="img " src="images/局部刷新/u2499.svg"/>
+              <div id="u2499_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (顶部导航) -->
+
+      <!-- 页面标题 (矩形) -->
+      <div id="u2501" class="ax_default box_1" data-label="页面标题">
+        <div id="u2501_div" class=""></div>
+        <div id="u2501_text" class="text ">
+          <p><span>页面标题</span></p>
+        </div>
+      </div>
+
+      <!-- 回到根目录 (矩形) -->
+      <div id="u2502" class="ax_default box_1" data-label="回到根目录">
+        <img id="u2502_img" class="img " src="images/使用说明/回到根目录_u24.svg"/>
+        <div id="u2502_text" class="text ">
+          <p><span> </span><span>回到根目录</span></p>
+        </div>
+      </div>
+
+      <!-- RP源文件 (矩形) -->
+      <div id="u2503" class="ax_default box_1" data-label="RP源文件">
+        <img id="u2503_img" class="img " src="images/使用说明/回到根目录_u24.svg"/>
+        <div id="u2503_text" class="text ">
+          <p><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">RP源文件</span></p>
+        </div>
+      </div>
+
+      <!-- 加入知识星球 (矩形) -->
+      <div id="u2504" class="ax_default box_1" data-label="加入知识星球" title="微信搜索公众号langzisay或者浪子PRD，关注后回复关键词原型，可下载所有原型。">
+        <img id="u2504_img" class="img " src="images/使用说明/回到根目录_u24.svg"/>
+        <div id="u2504_text" class="text ">
+          <p><span style="font-family:'FontAwesome';"> </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">知识星球</span></p>
+        </div>
+      </div>
+
+      <!-- 视频教程 (矩形) -->
+      <div id="u2505" class="ax_default box_1" data-label="视频教程">
+        <img id="u2505_img" class="img " src="images/使用说明/回到根目录_u24.svg"/>
+        <div id="u2505_text" class="text ">
+          <p><span> 视频教程</span></p>
+        </div>
+      </div>
+      <div id="u2500" style="display:none; visibility:hidden;"></div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
